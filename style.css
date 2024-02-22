@@ -167,11 +167,19 @@ nav h3 {
 }
 
 #about h3 {
-  font-family: serif;
-  font-style: italic;
-  color: cadetblue;
-  font-size: 3vw;
+  color: #fff;
+  font-size: 2vw;
   margin: 2vw 0;
+  background-color: cadetblue;
+  width: fit-content;
+  font-weight: 300;
+  padding-right: 4vw;
+  padding-left: 1vw;
+}
+
+#about .aim h3 {
+  padding-right: 1vw;
+  padding-left: 4vw;
 }
 
 #about p {
@@ -184,11 +192,16 @@ nav h3 {
   text-align: justify;
 }
 
+#about .aim p {
+  margin-left: 0;
+  margin-right: 2vw;
+}
+
 #about .aim {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding: 2vw 0;
+  padding: 4vw 0;
 }
 
 #courses {
@@ -464,6 +477,15 @@ footer {
   margin-top: 1vw;
 }
 
-.cor .img {
-  
+.cover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5vw;
+}
+
+.cover img {
+  border-radius: 10px;
+  height: 400px;
+  object-fit: cover;
 }
